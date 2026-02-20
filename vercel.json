@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "buildCommand": "cd frontend && npm install && npx vite build",
+  "buildCommand": "cd frontend && rm -rf node_modules/.bin && npm install && npx vite build",
   "outputDirectory": "frontend/dist",
-  "installCommand": "echo 'skip'"
+  "installCommand": "echo skip"
 }
