@@ -376,7 +376,7 @@ const AboutPage = () => {
             <p className="text-gray-400">Former SOC analysts, ML engineers, and platform builders.</p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             {team.map((member, i) => (
               <div key={i} className="card-hover bg-[#0F172A]/60 border border-white/8 rounded-2xl p-6 text-center group">
                 <div className={`w-16 h-16 bg-gradient-to-br ${member.gradient} rounded-2xl flex items-center justify-center font-sora font-bold text-lg mx-auto mb-4 group-hover:scale-110 transition-transform`}>
