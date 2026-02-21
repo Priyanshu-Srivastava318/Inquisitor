@@ -3,4 +3,8 @@
   "buildCommand": "cd frontend && rm -rf node_modules/.bin && npm install && npx vite build",
   "outputDirectory": "frontend/dist",
   "installCommand": "echo skip"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ad69c10bee7af23ab39529baa64b3595c6b40d18

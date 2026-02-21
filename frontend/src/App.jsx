@@ -6,6 +6,7 @@ import DashboardLayout from './components/DashboardLayout';
 import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
+import AboutPage from './pages/AboutPage';
 import Dashboard from './pages/Dashboard';
 import ChatPage from './pages/ChatPage';
 import ThreatMonitor from './pages/ThreatMonitor';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
+          <Route path="/about" element={<AboutPage />} />
 
           {/* Protected dashboard routes */}
           <Route path="/" element={
