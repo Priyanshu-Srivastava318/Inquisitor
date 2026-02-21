@@ -96,10 +96,10 @@ const AboutPage = () => {
   const [activeSection, setActiveSection] = useState(0);
 
   const timeline = [
-    { year: '2024 Q1', title: 'The Problem Identified', desc: 'Security teams wasting hours writing KQL and DSL queries. Response times suffering. We decided to fix it.', icon: '🔍' },
-    { year: '2024 Q2', title: 'NLP Core Built', desc: 'Developed the natural language processing engine that translates plain English into precise security queries.', icon: '🧠' },
-    { year: '2024 Q3', title: 'ML Threat Engine', desc: 'Integrated machine learning models trained on millions of threat patterns for predictive detection.', icon: '⚡' },
-    { year: '2025 Q1', title: 'Beta Launch', desc: 'First 50 security teams onboarded. Reduced average query time from 45 minutes to under 2 minutes.', icon: '🚀' },
+    { year: '2025 Q1', title: 'The Problem Identified', desc: 'Security teams wasting hours writing KQL and DSL queries. Response times suffering. We decided to fix it.', icon: '🔍' },
+    { year: '2025 Q2', title: 'NLP Core Built', desc: 'Developed the natural language processing engine that translates plain English into precise security queries.', icon: '🧠' },
+    { year: '2025 Q3', title: 'ML Threat Engine', desc: 'Integrated machine learning models trained on millions of threat patterns for predictive detection.', icon: '⚡' },
+    { year: '2025 Q4  ', title: 'Beta Launch', desc: 'First 50 security teams onboarded. Reduced average query time from 45 minutes to under 2 minutes.', icon: '🚀' },
     { year: '2026', title: 'Inquisitor Today', desc: 'Protecting 500+ organizations globally. Continuously learning. Always watching.', icon: '🛡️' },
   ];
 
@@ -111,11 +111,10 @@ const AboutPage = () => {
   ];
 
   const team = [
-    { name: 'Aryan Mehta', role: 'Security Architecture', avatar: 'AM', gradient: 'from-[#0EA5E9] to-[#8B5CF6]' },
-    { name: 'Priya Sharma', role: 'ML & AI Systems', avatar: 'PS', gradient: 'from-[#8B5CF6] to-pink-500' },
-    { name: 'Rohan Das', role: 'Platform Engineering', avatar: 'RD', gradient: 'from-emerald-500 to-[#0EA5E9]' },
-    { name: 'Kavya Nair', role: 'Threat Intelligence', avatar: 'KN', gradient: 'from-orange-500 to-red-500' },
-  ];
+  { name: 'Khushi Rathore', role: 'Team Lead & Backend Dev', avatar: 'KR', gradient: 'from-[#0EA5E9] to-[#8B5CF6]' },
+  { name: 'Priyanshu Srivastava', role: 'ML & Frontend', avatar: 'PS', gradient: 'from-[#8B5CF6] to-pink-500' },
+  { name: 'Kartik Chauhan', role: 'UI/UX Developer', avatar: 'KC', gradient: 'from-emerald-500 to-[#0EA5E9]' },
+];
 
   return (
     <div className="bg-[#020617] min-h-screen font-dm text-white overflow-x-hidden relative">
